@@ -1,0 +1,43 @@
+/* .dabba
+{
+    padding-top: 60px;
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;	
+	font-family: Raleway, sans-serif;
+    
+  
+}
+
+/* body {
+	background: linear-gradient(90deg, #E0E0E0,#E0E0E0);
+    		
+} */
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 400px) {
+.h-custom {
+height: 100%;
+}
+}
+
+.image
+{
+	height: 500px;
+	margin-top: 20px;
+	
+
+}

@@ -1,0 +1,97 @@
+body {
+	/* background-color: hsla(225, 100%, 94%, 0.801); */
+}
+
+
+.container {
+	padding: 10px 5px 10px 5px;
+	width: 100%;
+	margin: auto;
+	/* flex-wrap: wrap; */
+	display: flex;
+	/* justify-content: space-between; */
+	justify-content: center;
+	/* position: fixed; */
+	/* flex-wrap: wrap; */
+
+}
+
+.card_item {
+	padding: 5px 5px;
+	width: 24%;
+	text-align: center;
+}
+
+.container .card_item:hover {
+	transform: scale(1.02);
+	transition: transform .3s;
+	cursor: pointer;
+}
+
+.container .card_inner {
+	/* background: rgba(253, 253, 253, 0.808); */
+	border-radius: 10px;
+	padding: 1px 1px;
+	min-width: 100px;
+	min-height: 90px;
+	max-height: 60px;
+	width: 100%;
+	box-shadow: 5px 5px 10px 2px rgba(95, 95, 95, 0.24);
+}
+
+.container .card_item img {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	align-items: center;
+	transition: transform .2s;
+}
+
+.container .card_item .userName {
+	color: #203150;
+	font-weight: 600;
+	font-size: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+
+@media screen and (max-width: 1024px) {
+	.container .card_item {
+		width: 33%;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container .card_item {
+		width: 50%;
+	}
+	.wrapper .header {
+		font-size: 16px;
+		height: 50px;
+	}
+}
+
+@media screen and (max-width: 568px) {
+	.container .card_item {
+		width: 80%;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.container .card_item {
+		width: 100%;
+	}
+}
+
+.screencatimage
+{
+ width: 100%;
+ height: 180px;  
+ /* position: absolute;  */
+}
+
